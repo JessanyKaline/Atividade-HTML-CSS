@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&dislay=swap');
+
+body {
+    font-family: Lato sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    width: 300px;
+    margin: 0px 550px;
+    text-align: center;
+}
+
+header > img {
+    float: left;
+}
+
+header > h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+          }          
+        
+ nav {
+        width: 300px;
+        margin: 0px 550px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+nav > a{
+            margin: 20px;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            
+           }
+
+main {
+        width: 750px;
+        margin: 40px 370px;
+    }
+
+section{
+        width: 500px;
+        height: auto;
+        margin: 40px 100px;
+        background-color: #F6F6F9;
+        border-radius: 20px;
+             }
+section > h2{
+                    font-size: 19px;
+                }
+
+#inputNovaTarefa {
+    font-family: Lato;
+    padding: 0px 10px;
+    width: 380px ;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #0CCBDE;
+}
+
+#btnNovaTarefa{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 0px 25px;
+    color: #fff;
+    background-color: #0CCBDE;
+}
+
+#btnNovaTarefa:hover {
+    transform: scale(1.1);
+}
+
+#listaDeTarefas > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#listaDeTarefas > ul > li{
+    list-style: none;
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+#listaDeTarefas > ul > li:hover{
+    background-color: #0CCBDE;
+    color: #FFFFFF;
+}
+
+
+    
